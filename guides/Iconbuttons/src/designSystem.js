@@ -1,20 +1,34 @@
 export const colors = {
-  Haus: '#F3F4F4',
-  Night: '#333',
-  Sur: '#96DBE4',
-  'Sur a11y': '#24828F',
-  Peach: '#EFADA0',
-  'Peach a11y': '#E37059',
-  Pear: '#93DAAB',
-  'Pear a11y': '#2E854B',
+  DarkGray: '#9B9B9B',
+  DarkSlateGray: '#333',
+  DimGray: '#666',
+  DodgerBlue: '#0099FF',
+  FireBrick: '#C10008',
+  Khaki: '#FDC987',
+  LightGoldenRodYellow: '#FCFAD4',
+  LightGray: '#D7D7D7',
+  LightSeaGreen: '#3DCB99',
+  LightSkyBlue: '#65C1FF',
+  MediumAquaMarine: '#8FCAB9',
+  MediumSeaGreen: '#44DB5E',
+  Plum: '#E095B1',
+  Salmon: '#E86C68',
+  SeaGreen1: '#0BA74F',
+  SeaGreen2: '#279B4B',
+  SkyBlue: '#7ABAEA',
+  White: '#FFF',
+  BlackGlass: 'rgba(0, 0, 0, 0.35)',
+  WhiteSmoke: '#F1F1F1',
 };
 
-const typeSizes = [80, 48, 36, 24, 20, 16];
+const typeSizes = [80, 48, 36, 24, 22, 16];
 
-export const spacing = 16;
+export const btnColors = ['#E86C68', '#333', '#444'];
+
+export const spacing = 5;
 
 const fontFamilies = {
-  display: 'Helvetica',
+  display: 'Proxima Nova',
   body: 'Georgia',
 };
 
@@ -33,10 +47,11 @@ export const fonts = {
   },
   'Title 1': {
     color: colors.Night,
-    fontSize: typeSizes[2],
+    fontSize: typeSizes[5],
     fontFamily: fontFamilies.display,
     fontWeight: fontWeights.bold,
-    lineHeight: 48,
+    lineHeight: 20,
+    color: colors.White,
   },
   'Title 2': {
     color: colors.Night,
@@ -70,5 +85,5 @@ export default {
 
 export type DesignSystem = {
   fonts: any,
-  colors: { [key: string]: string },
+  colors: { [key: string]: string }
 };

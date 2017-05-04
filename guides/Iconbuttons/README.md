@@ -1,4 +1,4 @@
-# Profile Cards
+# IconButtons
 
 ## How to use
 Download the example or [clone the repo](http://github.com/airbnb/react-sketchapp):
@@ -23,7 +23,7 @@ npm run build
 npm run link-plugin
 ```
 
-Then, open Sketch and navigate to `Plugins → react-sketchapp: Profile Cards`
+Then, open Sketch and navigate to `Plugins → react-sketchapp: IconButtons`
 
 ## The idea behind the example
 

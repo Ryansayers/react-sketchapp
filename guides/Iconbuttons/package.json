@@ -1,7 +1,7 @@
 {
-  "name": "profile-cards",
+  "name": "Iconbuttons",
   "private": true,
-  "main": "profile-cards.sketchplugin",
+  "main": "Iconbuttons.sketchplugin",
   "manifest": "src/manifest.json",
   "scripts": {
     "build": "skpm build",
